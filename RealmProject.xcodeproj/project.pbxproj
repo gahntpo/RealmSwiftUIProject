@@ -17,6 +17,10 @@
 		176DD46D27DCCC5000F0B6C1 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176DD46C27DCCC5000F0B6C1 /* Group.swift */; };
 		176DD46F27DCCE3500F0B6C1 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176DD46E27DCCE3500F0B6C1 /* ItemListView.swift */; };
 		176DD47127DCCE4300F0B6C1 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176DD47027DCCE4300F0B6C1 /* ItemDetailView.swift */; };
+		17A5A5AF27E0E5EE000ED700 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A5A5AB27E0E5EE000ED700 /* detail.png */; };
+		17A5A5B027E0E5EE000ED700 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A5A5AC27E0E5EE000ED700 /* delete.png */; };
+		17A5A5B127E0E5EE000ED700 /* edit_mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A5A5AD27E0E5EE000ED700 /* edit_mode.png */; };
+		17A5A5B227E0E5EE000ED700 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A5A5AE27E0E5EE000ED700 /* main.png */; };
 		17B7E2B327DCF2C300AB8CB3 /* ItemResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7E2B227DCF2C300AB8CB3 /* ItemResultView.swift */; };
 		17B7E2B527DCF42600AB8CB3 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B7E2B427DCF42600AB8CB3 /* RealmHelper.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +35,11 @@
 		176DD46C27DCCC5000F0B6C1 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		176DD46E27DCCE3500F0B6C1 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		176DD47027DCCE4300F0B6C1 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		17A5A5AB27E0E5EE000ED700 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		17A5A5AC27E0E5EE000ED700 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		17A5A5AD27E0E5EE000ED700 /* edit_mode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_mode.png; sourceTree = "<group>"; };
+		17A5A5AE27E0E5EE000ED700 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		17A5A5B327E0E5F4000ED700 /* list_sorting.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = list_sorting.mp4; sourceTree = "<group>"; };
 		17B7E2B227DCF2C300AB8CB3 /* ItemResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemResultView.swift; sourceTree = "<group>"; };
 		17B7E2B427DCF42600AB8CB3 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +60,7 @@
 		176DD44A27DCCB4E00F0B6C1 = {
 			isa = PBXGroup;
 			children = (
+				17A5A5AA27E0E5E8000ED700 /* images */,
 				176DD45527DCCB4E00F0B6C1 /* RealmProject */,
 				176DD45427DCCB4E00F0B6C1 /* Products */,
 			);
@@ -95,6 +105,18 @@
 				176DD46C27DCCC5000F0B6C1 /* Group.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		17A5A5AA27E0E5E8000ED700 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				17A5A5AC27E0E5EE000ED700 /* delete.png */,
+				17A5A5AB27E0E5EE000ED700 /* detail.png */,
+				17A5A5AD27E0E5EE000ED700 /* edit_mode.png */,
+				17A5A5AE27E0E5EE000ED700 /* main.png */,
+				17A5A5B327E0E5F4000ED700 /* list_sorting.mp4 */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,8 +184,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A5A5B027E0E5EE000ED700 /* delete.png in Resources */,
 				176DD45E27DCCB5000F0B6C1 /* Preview Assets.xcassets in Resources */,
+				17A5A5B227E0E5EE000ED700 /* main.png in Resources */,
 				176DD45B27DCCB5000F0B6C1 /* Assets.xcassets in Resources */,
+				17A5A5B127E0E5EE000ED700 /* edit_mode.png in Resources */,
+				17A5A5AF27E0E5EE000ED700 /* detail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
