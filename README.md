@@ -1,4 +1,4 @@
-# RealmSwiftUIProject
+# SwiftUI app with Realm database locally
 Demo that shows how to use Realm with SwiftUI locally. Including the new property wrappers like @ObservedResults and @ObservedRealmObject 
 
 **This is a demo project for Youtube tutorial**
